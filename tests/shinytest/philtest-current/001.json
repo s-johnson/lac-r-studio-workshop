@@ -1,0 +1,105 @@
+{
+  "input": {
+    "api": "tylenol",
+    "end_date": "2020-03-02",
+    "seriousness": "1",
+    "start_date": "2004-01-01",
+    "submit": 3
+  },
+  "output": {
+    "download_button": {
+      "html": "<a id=\"download_data\" class=\"btn btn-default shiny-download-link \" href=\"\" target=\"_blank\" download>\n  <i class=\"fa fa-download\" role=\"presentation\" aria-label=\"download icon\"><\/i>\n  Download CSV\n<\/a>",
+      "deps": [
+        {
+          "name": "font-awesome",
+          "version": "5.13.0",
+          "src": {
+            "href": "font-awesome-5.13.0"
+          },
+          "meta": null,
+          "script": null,
+          "stylesheet": [
+            "css/all.min.css",
+            "css/v4-shims.min.css"
+          ],
+          "head": null,
+          "attachment": null,
+          "all_files": true
+        }
+      ]
+    },
+    "message": "5) Download the data:",
+    "plt": {
+      "src": "[image data sha1: f6ef0d31d549bbe7c2d7afc5849189a1424828b9]",
+      "width": 714,
+      "height": 640,
+      "alt": "Plot object",
+      "coordmap": {
+        "panels": [
+          {
+            "panel": 1,
+            "row": 1,
+            "col": 1,
+            "panel_vars": {
+
+            },
+            "log": {
+              "x": null,
+              "y": null
+            },
+            "domain": {
+              "left": 0.4,
+              "right": 10.6,
+              "bottom": -553.575,
+              "top": 11625.075,
+              "discrete_limits": {
+                "x": [
+                  "NAUSEA",
+                  "FATIGUE",
+                  "PAIN",
+                  "DYSPNOEA",
+                  "DIARRHOEA",
+                  "HEADACHE",
+                  "VOMITING",
+                  "DEATH",
+                  "DRUG\nINEFFECTIVE",
+                  "PYREXIA"
+                ]
+              }
+            },
+            "mapping": {
+              "x": "reorder(Event, Count, FUN = function(x) -x)",
+              "y": "Count"
+            },
+            "range": {
+              "left": 60.0306849315069,
+              "right": 708.520547945205,
+              "bottom": 560.534653829905,
+              "top": 52.470904109589
+            }
+          }
+        ],
+        "dims": {
+          "width": 714,
+          "height": 640
+        }
+      }
+    },
+    "tble": {
+      "colnames": [
+        "Rank",
+        "Event",
+        "Count",
+        "Frequency"
+      ],
+      "options": null,
+      "evalOptions": null,
+      "searchDelay": 500,
+      "callback": "function(oTable) {}",
+      "escape": true
+    }
+  },
+  "export": {
+
+  }
+}
