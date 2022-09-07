@@ -7,6 +7,7 @@ fluidPage(
     fluidRow(
         column(3,
             br(),
+            p("Hello World"),
             p("The OpenFDA project makes adverse-event data gathered after January 1, 2004,
               available via a public-access portal that enables developers to quickly and
               easily use it in applications. The project is hosted at:"),
